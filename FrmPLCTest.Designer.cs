@@ -34,6 +34,9 @@
             this.label9 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.txtInt32addr = new System.Windows.Forms.TextBox();
+            this.label11 = new System.Windows.Forms.Label();
+            this.btnTestCount = new System.Windows.Forms.Button();
             this.btn_Connect = new System.Windows.Forms.Button();
             this.label10 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
@@ -53,9 +56,6 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.Txt_Recieve = new System.Windows.Forms.TextBox();
-            this.txtInt32addr = new System.Windows.Forms.TextBox();
-            this.label11 = new System.Windows.Forms.Label();
-            this.btnTestCount = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -133,9 +133,36 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "groupBox1";
             // 
+            // txtInt32addr
+            // 
+            this.txtInt32addr.Location = new System.Drawing.Point(368, 229);
+            this.txtInt32addr.Name = "txtInt32addr";
+            this.txtInt32addr.Size = new System.Drawing.Size(103, 21);
+            this.txtInt32addr.TabIndex = 31;
+            this.txtInt32addr.Text = "DB1,DBD1";
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(305, 238);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(47, 12);
+            this.label11.TabIndex = 30;
+            this.label11.Text = "PLC地址";
+            // 
+            // btnTestCount
+            // 
+            this.btnTestCount.Location = new System.Drawing.Point(494, 226);
+            this.btnTestCount.Name = "btnTestCount";
+            this.btnTestCount.Size = new System.Drawing.Size(78, 37);
+            this.btnTestCount.TabIndex = 29;
+            this.btnTestCount.Text = "TestCount";
+            this.btnTestCount.UseVisualStyleBackColor = true;
+            this.btnTestCount.Click += new System.EventHandler(this.BtnTestCount_Click);
+            // 
             // btn_Connect
             // 
-            this.btn_Connect.Location = new System.Drawing.Point(17, 79);
+            this.btn_Connect.Location = new System.Drawing.Point(68, 141);
             this.btn_Connect.Name = "btn_Connect";
             this.btn_Connect.Size = new System.Drawing.Size(78, 33);
             this.btn_Connect.TabIndex = 28;
@@ -146,7 +173,7 @@
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(115, 89);
+            this.label10.Location = new System.Drawing.Point(83, 98);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(47, 12);
             this.label10.TabIndex = 27;
@@ -302,33 +329,6 @@
             this.Txt_Recieve.Name = "Txt_Recieve";
             this.Txt_Recieve.Size = new System.Drawing.Size(475, 75);
             this.Txt_Recieve.TabIndex = 22;
-            // 
-            // txtInt32addr
-            // 
-            this.txtInt32addr.Location = new System.Drawing.Point(368, 229);
-            this.txtInt32addr.Name = "txtInt32addr";
-            this.txtInt32addr.Size = new System.Drawing.Size(103, 21);
-            this.txtInt32addr.TabIndex = 31;
-            this.txtInt32addr.Text = "DB1,DBD1";
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(305, 238);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(47, 12);
-            this.label11.TabIndex = 30;
-            this.label11.Text = "PLC地址";
-            // 
-            // btnTestCount
-            // 
-            this.btnTestCount.Location = new System.Drawing.Point(494, 226);
-            this.btnTestCount.Name = "btnTestCount";
-            this.btnTestCount.Size = new System.Drawing.Size(78, 37);
-            this.btnTestCount.TabIndex = 29;
-            this.btnTestCount.Text = "TestCount";
-            this.btnTestCount.UseVisualStyleBackColor = true;
-            this.btnTestCount.Click += new System.EventHandler(this.BtnTestCount_Click);
             // 
             // FrmPLCTest
             // 
