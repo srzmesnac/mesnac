@@ -175,9 +175,9 @@
             this.label10.AutoSize = true;
             this.label10.Location = new System.Drawing.Point(124, 116);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(47, 12);
+            this.label10.Size = new System.Drawing.Size(53, 12);
             this.label10.TabIndex = 27;
-            this.label10.Text = "label10";
+            this.label10.Text = "提示状态";
             // 
             // label8
             // 
